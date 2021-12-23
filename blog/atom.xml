@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://JulesFouchy.github.io/blog</id>
-    <title>Mathematics for Art Blog</title>
+    <id>https://julesfouchy.github.io/blog</id>
+    <title>Math for Art and Computer Graphics Blog</title>
     <updated>2015-10-25T23:29:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://JulesFouchy.github.io/blog"/>
-    <subtitle>Mathematics for Art Blog</subtitle>
-    <icon>https://JulesFouchy.github.io/img/favicon.ico</icon>
+    <link rel="alternate" href="https://julesfouchy.github.io/blog"/>
+    <subtitle>Math for Art and Computer Graphics Blog</subtitle>
+    <icon>https://julesfouchy.github.io/img/favicon.ico</icon>
 </feed>
