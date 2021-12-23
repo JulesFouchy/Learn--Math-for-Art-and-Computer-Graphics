@@ -1,8 +1,8 @@
 module.exports = {
   github_account: "JulesFouchy",
   repo: "Learn--Math-for-Art-and-Computer-Graphics",
+  title: "Mathematics for Art",
   docusaurus_config: {
-    title: "Mathematics for Art",
     tagline: "Making 🎨 with 👩‍💻",
     // Override any parts of docusaurus.config.js you want
   },
