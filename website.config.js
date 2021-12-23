@@ -61,4 +61,3 @@ module.exports = /*async*/ () => {
     //   path_to_docs: "../../docs", uncomment this to change the path to the docs folder expected by Docusaurus. The path should be relative to Teaching-Toolbox/website
   };
 };
-// console.log(contact.discord_user_id);
