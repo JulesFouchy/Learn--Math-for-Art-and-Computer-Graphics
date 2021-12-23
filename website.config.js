@@ -8,10 +8,24 @@ module.exports = /*async*/ () => {
     discord_user_id: "372812330742054914",
     email: "jules.fouchy@ntymail.com",
   };
+  const classes = [
+    {
+      name: "C++ and Dev Practices",
+      url: "https://julesfouchy.github.io/Learn--Cpp-And-Dev-Practices/",
+    },
+    {
+      name: "Generative Art",
+      url: "https://julesfouchy.github.io/Learn--Generative-Art",
+    },
+    {
+      name: "Math for Art and Computer Graphics",
+      url: "https://julesfouchy.github.io/Learn--Math-for-Art-and-Computer-Graphics",
+    },
+  ];
   return {
     github_account: "JulesFouchy",
     repo: "Learn--Math-for-Art-and-Computer-Graphics",
-    title: "Mathematics for Art",
+    title: "Math for Art and Computer Graphics",
     docusaurus_config: {
       tagline: "Making 🎨 with 👩‍💻",
       // Override any parts of docusaurus.config.js you want
@@ -41,16 +55,7 @@ module.exports = /*async*/ () => {
         to: "https://github.com/JulesFouchy/JulesFouchy/issues",
       },
     ],
-    classes: [
-      {
-        label: "Math for Art and Computer Graphics",
-        to: "https://julesfouchy.github.io/Learn--Math-for-Art-and-Computer-Graphics",
-      },
-      {
-        label: "C++ and Dev Practices",
-        to: "https://julesfouchy.github.io/Learn--Cpp-And-Dev-Practices/",
-      },
-    ],
+    classes: classes,
     extra_copyright: "",
     syntax_highlight_for: ["typescript"],
     //   path_to_docs: "../../docs", uncomment this to change the path to the docs folder expected by Docusaurus. The path should be relative to Teaching-Toolbox/website
