@@ -30,11 +30,11 @@ module.exports = /*async*/ () => {
     contact_info: [
       {
         label: "Discord",
-        to: "https://discord.com/users/372812330742054914",
+        to: `https://discord.com/users/${contact_info.discord_user_id}`,
       },
       {
         label: "E-Mail",
-        to: "mailto:jules.fouchy@ntymail.com",
+        to: `mailto:${contact_info.email}`,
       },
       {
         label: "GitHub",
