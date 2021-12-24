@@ -1,6 +1,6 @@
 ---
 title: Introduction
-slug: /exercises
+slug: ./
 ---
 
 ## Forewords
