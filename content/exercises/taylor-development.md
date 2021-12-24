@@ -15,11 +15,11 @@ Did you get it right ? Or are some parts completely off ? If so, can you imagine
 
 First $\sin(x)$ varies between $-1$ and $1$, and therefore $\sin(x)\times\frac{1}{x}$ varies between $-\frac{1}{x}$ and $\frac{1}{x}$. Our graph will look like the graph of $\sin$, but it will be bounded by the graphs of $-\frac{1}{x}$ and $\frac{1}{x}$.
 
-![](bounding-graphs.png)
+![](../img/bounding-graphs.png)
 
 Then, around 0 : $sin(x)$ and $x$ are **very** similar (we say that they are *equivalent* and we write it $\sin(x) \sim x$)
 
-![](equiv-sin-and-x.png)
+![](../img/equiv-sin-and-x.png)
 
 And since dividing a number by itself gives $1$, $\frac{\sin(x)}{x} \approx 1$ as we get close to 0.
 
