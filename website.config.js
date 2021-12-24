@@ -7,7 +7,7 @@ module.exports = /*async*/ () => {
   const contact_info = {
     discord_user_id: "372812330742054914",
     email: "jules.fouchy@ntymail.com",
-  };
+  }
   const classes = [
     {
       name: "C++ and Dev Practices",
@@ -21,7 +21,7 @@ module.exports = /*async*/ () => {
       name: "Math for Art and Computer Graphics",
       url: "https://julesfouchy.github.io/Learn--Math-for-Art-and-Computer-Graphics",
     },
-  ];
+  ]
   return {
     github_account: "JulesFouchy",
     repo: "Learn--Math-for-Art-and-Computer-Graphics",
@@ -60,5 +60,5 @@ module.exports = /*async*/ () => {
     extra_copyright: "",
     syntax_highlight_for: ["typescript"],
     //   path_to_docs: "../../docs", uncomment this to change the path to the docs folder expected by Docusaurus. The path should be relative to Teaching-Toolbox/website
-  };
-};
+  }
+}
