@@ -30,13 +30,19 @@ module.exports = /*async*/ () => {
       tagline: "Making 🎨 with 👩‍💻",
       // Override any parts of docusaurus.config.js you want
     },
-    main_page_link: "docs/lessons",
+    main_page_link: "lessons",
     navbar_items: [
       {
         type: "doc",
         docId: "lessons/introduction",
         position: "left",
         label: "Lessons",
+      },
+      {
+        type: "doc",
+        docId: "exercises/introduction",
+        position: "left",
+        label: "Exercises",
       },
       //   { to: "/resources", label: "Resources", position: "left" },
       //   { to: "/inspirations", label: "Inspirations", position: "left" },
@@ -59,6 +65,6 @@ module.exports = /*async*/ () => {
     classes: classes,
     extra_copyright: "",
     syntax_highlight_for: ["typescript"],
-    //   path_to_docs: "../../docs", uncomment this to change the path to the docs folder expected by Docusaurus. The path should be relative to Teaching-Toolbox/website
+    //   path_to_content: "../../content", uncomment this to change the path to the docs folder expected by Docusaurus. The path should be relative to Teaching-Toolbox/website
   }
 }
