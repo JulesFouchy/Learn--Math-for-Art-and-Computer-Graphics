@@ -30,6 +30,7 @@ module.exports = /*async*/ () => {
       tagline: "Making 🎨 with 👩‍💻",
       // Override any parts of docusaurus.config.js you want
     },
+    main_page_link: "docs/lessons",
     navbar_items: [
       {
         type: "doc",
@@ -37,8 +38,8 @@ module.exports = /*async*/ () => {
         position: "left",
         label: "Lessons",
       },
-      { to: "/resources", label: "Resources", position: "left" },
-      { to: "/inspirations", label: "Inspirations", position: "left" },
+      //   { to: "/resources", label: "Resources", position: "left" },
+      //   { to: "/inspirations", label: "Inspirations", position: "left" },
     ],
     //   footer: {}, // Uncomment this to override the hardcoded footer in docusaurus.config.js
     contact_info: [
