@@ -27,7 +27,7 @@ module.exports = /*async*/ () => {
     repo: "Learn--Math-for-Art-and-Computer-Graphics",
     title: "Math for Art and Computer Graphics",
     docusaurus_config: {
-      tagline: "Making 🎨 with 👩‍💻",
+      tagline: "Understanding ⚙️ shape, 🎨 color and 💨 movement",
       // Override any parts of docusaurus.config.js you want
     },
     main_page_link: "lessons",
