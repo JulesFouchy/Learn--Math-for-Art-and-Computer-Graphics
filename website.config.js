@@ -1,27 +1,12 @@
-// const fetch = require("node-fetch");
+const fetch = require("node-fetch")
 
-module.exports = /*async*/ () => {
-  //   const contact_info = await fetch(
-  //     "https://raw.githubusercontent.com/JulesFouchy/JulesFouchy/main/contact.json"
-  //   ).then((res) => res.json());
-  const contact_info = {
-    discord_user_id: "372812330742054914",
-    email: "jules.fouchy@ntymail.com",
-  }
-  const classes = [
-    {
-      name: "C++ and Dev Practices",
-      url: "https://julesfouchy.github.io/Learn--Cpp-And-Dev-Practices/",
-    },
-    {
-      name: "Generative Art",
-      url: "https://julesfouchy.github.io/Learn--Generative-Art",
-    },
-    {
-      name: "Math for Art and Computer Graphics",
-      url: "https://julesfouchy.github.io/Learn--Math-for-Art-and-Computer-Graphics",
-    },
-  ]
+module.exports = async () => {
+  const contact_info = await fetch(
+    "https://raw.githubusercontent.com/JulesFouchy/JulesFouchy/main/contact.json"
+  ).then((res) => res.json())
+  const classes = await fetch(
+    "https://raw.githubusercontent.com/JulesFouchy/JulesFouchy/main/my-classes.json"
+  ).then((res) => res.json())
   return {
     github_account: "JulesFouchy",
     repo: "Learn--Math-for-Art-and-Computer-Graphics",
@@ -65,6 +50,5 @@ module.exports = /*async*/ () => {
     classes: classes,
     extra_copyright: "",
     syntax_highlight_for: ["typescript"],
-    //   path_to_content: "../../content", uncomment this to change the path to the docs folder expected by Docusaurus. The path should be relative to Teaching-Toolbox/website
   }
 }
