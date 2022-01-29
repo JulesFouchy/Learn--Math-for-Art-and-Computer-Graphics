@@ -17,20 +17,8 @@ module.exports = async () => {
     },
     main_page_link: "lessons",
     navbar_items: [
-      {
-        type: "doc",
-        docId: "lessons/introduction",
-        position: "left",
-        label: "Lessons",
-      },
-      {
-        type: "doc",
-        docId: "exercises/introduction",
-        position: "left",
-        label: "Exercises",
-      },
-      //   { to: "/resources", label: "Resources", position: "left" },
-      //   { to: "/inspirations", label: "Inspirations", position: "left" },
+      { to: "/lessons", label: "Lessons", position: "left" },
+      { to: "/exercises", label: "Exercises", position: "left" },
     ],
     should_sort_lessons_by_priority: false,
     //   footer: {}, // Uncomment this to override the hardcoded footer in docusaurus.config.js
@@ -51,5 +39,6 @@ module.exports = async () => {
     classes: classes,
     extra_copyright: "",
     syntax_highlight_for: ["typescript"],
+    lessons_allowed_tags: [],
   }
 }
