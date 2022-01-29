@@ -6,8 +6,5 @@
     "start": "cd Teaching-Toolbox/website && npm start",
     "build": "cd Teaching-Toolbox/website && npm run build",
     "serve": "cd Teaching-Toolbox/website && npm run serve"
-  },
-  "dependencies": {
-    "node-fetch": "2.6.6"
   }
 }
