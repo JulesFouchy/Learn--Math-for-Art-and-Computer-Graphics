@@ -5,6 +5,10 @@
   "scripts": {
     "start": "cd Teaching-Toolbox/website && npm start",
     "build": "cd Teaching-Toolbox/website && npm run build",
-    "serve": "cd Teaching-Toolbox/website && npm run serve"
+    "serve": "cd Teaching-Toolbox/website && npm run serve",
+    "deploy": "cd Teaching-Toolbox/website && npm run deploy"
+  },
+  "dependencies": {
+    "node-fetch": "2.6.6"
   }
 }

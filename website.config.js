@@ -1,4 +1,6 @@
-module.exports = async (fetch) => {
+const fetch = require("node-fetch")
+
+module.exports = async () => {
   const contact_info = await fetch(
     "https://raw.githubusercontent.com/JulesFouchy/JulesFouchy/main/contact.json"
   ).then((res) => res.json())
