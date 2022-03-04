@@ -12,7 +12,7 @@ If the problem has only a few possible solutions, once you definitely crossed ou
 ## Exercises
 
 - Code Combat, Introduction to Computer Science, exercises 3a and 3b (Create a teacher account to play for free)
-- How to make exactly 4 equilateral triangles with 6 matches?
+- How to make exactly 4 triangles with 6 matches? (NB: a triangle is formed when the **ends** of the matches touch) (NB: the triangles must all have the same size (1 match per side))
     <details>
         <summary>TIP</summary>
         Think in 3D
