@@ -1,0 +1,4 @@
+[Great lectures by Tadashi Tokieda](https://youtu.be/SXHHvoaSctc?list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ). They are not only about topology, but also great lessons about how to reason and work in math
+ -> Make guesses to commit and learn from your mistakes [link](https://youtu.be/SXHHvoaSctc?list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ&t=205)
+ -> Learn to listen to the music of mathematics, beyond the formulas and numbers [link](https://youtu.be/Wj5foqm5MfM?list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ&t=66)
+ -> Solve problems by deformation, solve a simpler problem first [link](https://youtu.be/8YDw4YxT-FM?list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ)

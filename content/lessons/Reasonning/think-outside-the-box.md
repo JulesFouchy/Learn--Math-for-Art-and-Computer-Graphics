@@ -22,6 +22,9 @@ If the problem has only a few possible solutions, once you definitely crossed ou
     <br/><br/>
     ⚫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⚫
 - TODO check in the book "Beauty of Math" I think they have a similar example
+- There are ants on a rod: the rod is 1 meter long and the ants walk 1 meter per second. When two ants bump into each other, they take a half-turn and continue in the opposite direction. Once they arrive at one of the ends of the rod, they leave. *Question:* how long will it take for all the ants to leave?
+ TODO put a drawing to show the starting positions and directions of the ants
+ - [Can You Solve These "Ghostly" Riddles? - *MindYourDecisions*](https://youtu.be/p1GUHQRUjd8)
 
 ## Going further
 
